@@ -4,6 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.educandoweb.course.entities.User;
 
+
 public interface UserRepository extends JpaRepository<User, Long> {
 	//tipo da minha entidade é User e o Id dela é Long
 	
